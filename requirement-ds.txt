@@ -1,0 +1,135 @@
+# ============================================================================
+# DATA SCIENCE REQUIREMENTS
+# Python 3.10+ compatible
+# Focus: Statistical analysis, experimentation, modeling, and scientific computing
+# ============================================================================
+
+# Core Scientific Computing
+# ----------------------------------------------------------------------------
+numpy==1.26.3                    # Numerical computing and arrays
+scipy==1.12.0                    # Scientific computing and optimization
+sympy==1.12                      # Symbolic mathematics
+numba==0.59.0                    # JIT compiler for numerical functions
+
+# Data Manipulation
+# ----------------------------------------------------------------------------
+pandas==2.2.0                    # Data manipulation and analysis
+polars==0.20.6                   # Fast DataFrame library (Rust-based)
+pyarrow==14.0.2                  # Apache Arrow for columnar data
+
+# Statistical Analysis & Modeling
+# ----------------------------------------------------------------------------
+statsmodels==0.14.1              # Statistical modeling and econometrics
+pingouin==0.5.4                  # Statistical tests and analysis
+lifelines==0.28.0                # Survival analysis
+patsy==0.5.6                     # Statistical model formulas
+
+# Machine Learning (Classical)
+# ----------------------------------------------------------------------------
+scikit-learn==1.4.0              # Machine learning algorithms
+imbalanced-learn==0.12.0         # Handling imbalanced datasets
+xgboost==2.0.3                   # Gradient boosting framework
+lightgbm==4.3.0                  # Light gradient boosting machine
+catboost==1.2.2                  # Categorical boosting
+
+# Feature Engineering
+# ----------------------------------------------------------------------------
+featuretools==1.30.0             # Automated feature engineering
+category-encoders==2.6.3         # Categorical variable encoders
+scikit-learn-extra==0.3.0        # Additional scikit-learn estimators
+
+# Time Series Analysis
+# ----------------------------------------------------------------------------
+statsforecast==1.7.3             # Statistical forecasting models
+prophet==1.1.5                   # Time series forecasting by Meta
+pmdarima==2.0.4                  # Auto ARIMA for time series
+sktime==0.26.0                   # Time series machine learning
+tsfresh==0.20.2                  # Time series feature extraction
+
+# Experimentation & A/B Testing
+# ----------------------------------------------------------------------------
+scipy==1.12.0                    # Statistical tests (included above)
+statsmodels==0.14.1              # Hypothesis testing (included above)
+
+# Causal Inference
+# ----------------------------------------------------------------------------
+dowhy==0.11.1                    # Causal inference library
+causalml==0.15.1                 # Causal machine learning
+
+# Bayesian Analysis
+# ----------------------------------------------------------------------------
+pymc==5.10.4                     # Bayesian statistical modeling
+arviz==0.17.0                    # Exploratory analysis of Bayesian models
+
+# Data Visualization
+# ----------------------------------------------------------------------------
+matplotlib==3.8.2                # Core plotting library
+seaborn==0.13.1                  # Statistical data visualization
+plotly==5.18.0                   # Interactive visualizations
+bokeh==3.3.4                     # Interactive visualization library
+altair==5.2.0                    # Declarative statistical visualization
+yellowbrick==1.5                 # ML visualization extension for scikit-learn
+
+# Natural Language Processing
+# ----------------------------------------------------------------------------
+nltk==3.8.1                      # Natural Language Toolkit
+spacy==3.7.2                     # Industrial-strength NLP
+textblob==0.18.0.post0           # Simple text processing
+gensim==4.3.2                    # Topic modeling and document similarity
+
+# Computer Vision (Traditional)
+# ----------------------------------------------------------------------------
+opencv-python==4.9.0.80          # Computer vision library
+pillow==10.2.0                   # Image processing library
+scikit-image==0.22.0             # Image processing algorithms
+
+# Model Interpretation & Explainability
+# ----------------------------------------------------------------------------
+shap==0.44.1                     # SHapley Additive exPlanations
+lime==0.2.0.1                    # Local Interpretable Model-agnostic Explanations
+eli5==0.13.0                     # Model interpretation library
+interpret==0.5.1                 # Interpretable machine learning
+
+# Optimization
+# ----------------------------------------------------------------------------
+optuna==3.5.0                    # Hyperparameter optimization
+hyperopt==0.2.7                  # Distributed hyperparameter optimization
+scipy==1.12.0                    # Optimization algorithms (included above)
+
+# Model Persistence
+# ----------------------------------------------------------------------------
+joblib==1.3.2                    # Model serialization
+pickle5==0.0.11                  # Enhanced pickle protocol
+dill==0.3.8                      # Extended pickling support
+
+# Utilities
+# ----------------------------------------------------------------------------
+tqdm==4.66.1                     # Progress bars
+python-dateutil==2.8.2           # Date/time utilities
+pytz==2023.3.post1               # Timezone definitions
+
+# Jupyter & Interactive Computing
+# ----------------------------------------------------------------------------
+jupyter==1.0.0                   # Jupyter metapackage
+notebook==7.0.7                  # Classic Jupyter Notebook
+jupyterlab==4.0.11               # Next-generation Jupyter interface
+ipywidgets==8.1.1                # Interactive widgets for notebooks
+ipykernel==6.29.0                # IPython kernel for Jupyter
+
+# Data Quality & Profiling
+# ----------------------------------------------------------------------------
+great-expectations==0.18.8       # Data validation and profiling
+pandas-profiling==3.6.6          # Automated EDA reports
+sweetviz==2.3.1                  # Comparison and analysis reports
+
+# Database Connectivity
+# ----------------------------------------------------------------------------
+sqlalchemy==2.0.25               # SQL toolkit and ORM
+psycopg2-binary==2.9.9           # PostgreSQL adapter
+pymysql==1.1.0                   # MySQL connector
+
+# Testing & Validation
+# ----------------------------------------------------------------------------
+pytest==8.0.0                    # Testing framework
+hypothesis==6.97.4               # Property-based testing
+faker==22.6.0                    # Fake data generation
