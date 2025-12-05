@@ -1,0 +1,246 @@
+# ============================================================================
+# AI AGENTS / LLM APPLICATIONS REQUIREMENTS
+# Python 3.10+ compatible
+# Focus: LLM orchestration, agents, RAG, vector databases, prompt engineering
+# ============================================================================
+
+# Core LLM Frameworks
+# ----------------------------------------------------------------------------
+langchain==0.1.9                 # LLM application framework
+langchain-community==0.0.24      # Community integrations for LangChain
+langchain-core==0.1.27           # Core abstractions for LangChain
+langchain-openai==0.0.7          # OpenAI integration for LangChain
+langgraph==0.0.25                # Graph-based agent workflows
+langsmith==0.0.87                # LangChain debugging and monitoring
+llama-index==0.10.13             # Data framework for LLM applications (formerly GPT Index)
+llama-index-core==0.10.13        # Core components for LlamaIndex
+semantic-kernel==1.0.3           # Microsoft's LLM orchestration framework
+haystack-ai==2.0.0               # Framework for building search and QA systems
+
+# LLM API Clients
+# ----------------------------------------------------------------------------
+openai==1.12.0                   # OpenAI API client (GPT-4, GPT-3.5, embeddings)
+anthropic==0.18.1                # Anthropic API client (Claude)
+cohere==4.52                     # Cohere API client
+google-generativeai==0.4.0       # Google Gemini API client
+together==1.1.2                  # Together AI API client
+replicate==0.25.1                # Replicate API for ML models
+groq==0.4.2                      # Groq API client for fast inference
+
+# Local LLM Inference
+# ----------------------------------------------------------------------------
+transformers==4.37.2             # Hugging Face transformers
+accelerate==0.26.1               # Distributed inference and training
+bitsandbytes==0.42.0             # 8-bit quantization for LLMs
+peft==0.8.2                      # Parameter-Efficient Fine-Tuning (LoRA, QLoRA)
+auto-gptq==0.7.1                 # GPTQ quantization
+llama-cpp-python==0.2.56         # Python bindings for llama.cpp
+ctransformers==0.2.27            # Python bindings for GGML models
+vllm==0.3.2                      # High-throughput LLM inference engine
+exllama==0.0.18                  # Optimized inference for Llama models
+text-generation-webui==1.7       # Gradio web UI for text generation
+
+# Vector Databases
+# ----------------------------------------------------------------------------
+chromadb==0.4.22                 # Chroma vector database
+faiss-cpu==1.7.4                 # Facebook AI Similarity Search (CPU)
+faiss-gpu==1.7.4                 # Facebook AI Similarity Search (GPU)
+pinecone-client==3.0.3           # Pinecone vector database client
+weaviate-client==4.4.1           # Weaviate vector database client
+qdrant-client==1.7.3             # Qdrant vector database client
+milvus==2.3.5                    # Milvus vector database client
+pymilvus==2.3.6                  # Milvus Python SDK
+redis==5.0.1                     # Redis (with vector search via RediSearch)
+pgvector==0.2.5                  # PostgreSQL vector extension client
+lancedb==0.5.3                   # LanceDB embedded vector database
+marqo==3.3.0                     # Tensor search engine
+
+# Embeddings
+# ----------------------------------------------------------------------------
+sentence-transformers==2.3.1     # Sentence embeddings (SBERT)
+openai==1.12.0                   # OpenAI embeddings API (included above)
+cohere==4.52                     # Cohere embeddings API (included above)
+instructor==1.2.3                # Instructor embeddings
+fastembed==0.2.2                 # Fast embeddings library
+
+# Document Processing & Loaders
+# ----------------------------------------------------------------------------
+pypdf==4.0.2                     # PDF reading and manipulation
+pymupdf==1.23.22                 # Fast PDF processing (fitz)
+pdfplumber==0.10.4               # PDF data extraction
+docx2txt==0.8                    # Extract text from DOCX files
+python-docx==1.1.0               # Create and update DOCX files
+python-pptx==0.6.23              # Read and write PowerPoint files
+openpyxl==3.1.2                  # Excel file reading/writing
+markdown==3.5.2                  # Markdown processing
+beautifulsoup4==4.12.3           # HTML/XML parsing
+lxml==5.1.0                      # XML/HTML processing
+unstructured==0.12.4             # Document preprocessing and extraction
+langchain-community==0.0.24      # Document loaders (included above)
+
+# Text Splitting & Chunking
+# ----------------------------------------------------------------------------
+tiktoken==0.6.0                  # OpenAI tokenizer for token counting
+langchain-text-splitters==0.0.1  # Text splitting utilities
+semantic-text-splitter==0.1.0    # Semantic-aware text splitting
+
+# Prompt Engineering & Management
+# ----------------------------------------------------------------------------
+promptify==0.1.4                 # Prompt engineering framework
+guidance==0.1.13                 # Prompt programming and constraint
+prompttools==0.4.0               # Testing and evaluation for prompts
+langchain==0.1.9                 # Prompt templates (included above)
+jinja2==3.1.3                    # Template engine for prompts
+
+# Agent Frameworks
+# ----------------------------------------------------------------------------
+autogen==0.2.11                  # Microsoft AutoGen multi-agent framework
+crewai==0.11.0                   # Framework for role-playing autonomous AI agents
+langchain==0.1.9                 # Agent execution (included above)
+langgraph==0.0.25                # Graph workflows (included above)
+smolagents==0.1.0                # Lightweight agent framework
+
+# Memory & State Management
+# ----------------------------------------------------------------------------
+redis==5.0.1                     # In-memory data store (included above)
+sqlite3==3.41.2                  # Built-in Python SQLite
+langchain==0.1.9                 # Memory modules (included above)
+mem0ai==0.0.8                    # Memory layer for AI agents
+
+# Function Calling & Tool Use
+# ----------------------------------------------------------------------------
+pydantic==2.5.3                  # Data validation for function schemas
+jsonschema==4.21.1               # JSON schema validation
+instructor==1.2.3                # Structured outputs from LLMs (included above)
+
+# API Integration & Web Tools
+# ----------------------------------------------------------------------------
+requests==2.31.0                 # HTTP library
+httpx==0.26.0                    # Async HTTP client
+aiohttp==3.9.3                   # Async HTTP client/server
+beautifulsoup4==4.12.3           # Web scraping (included above)
+playwright==1.41.2               # Browser automation
+selenium==4.17.2                 # Browser automation
+serpapi==0.1.5                   # Search engine results API
+googlesearch-python==1.2.3       # Google search wrapper
+duckduckgo-search==4.4.3         # DuckDuckGo search API
+wikipedia==1.4.0                 # Wikipedia API wrapper
+
+# RAG (Retrieval-Augmented Generation)
+# ----------------------------------------------------------------------------
+langchain==0.1.9                 # RAG pipelines (included above)
+llama-index==0.10.13             # RAG framework (included above)
+ragas==0.1.5                     # RAG evaluation framework
+haystack-ai==2.0.0               # Document retrieval (included above)
+
+# Evaluation & Testing
+# ----------------------------------------------------------------------------
+ragas==0.1.5                     # RAG evaluation (included above)
+langsmith==0.0.87                # LangChain evaluation (included above)
+promptfoo==0.59.0                # LLM evaluation and testing
+deepeval==0.21.35                # LLM evaluation framework
+phoenix-ai==3.0.2                # LLM observability and evaluation
+
+# Output Parsing & Validation
+# ----------------------------------------------------------------------------
+pydantic==2.5.3                  # Data validation (included above)
+instructor==1.2.3                # Structured extraction (included above)
+jsonformer==0.12.0               # Enforce JSON output structure
+outlines==0.0.34                 # Structured text generation
+lmformatenforcer==0.9.5          # Format enforcement for LLMs
+
+# Guardrails & Safety
+# ----------------------------------------------------------------------------
+guardrails-ai==0.4.3             # Validation and safety for LLM outputs
+nemoguardrails==0.8.1            # NVIDIA NeMo Guardrails
+lakera-guard==0.0.8              # Content moderation API
+presidio-analyzer==2.2.354       # PII detection and anonymization
+presidio-anonymizer==2.2.354     # PII anonymization
+
+# Model Serving & Deployment
+# ----------------------------------------------------------------------------
+fastapi==0.109.0                 # Web framework for APIs
+uvicorn==0.27.0                  # ASGI server
+gradio==4.19.2                   # Quick ML web interfaces
+streamlit==1.31.1                # App framework for ML/data apps
+chainlit==1.0.400                # Build conversational AI interfaces
+litellm==1.30.0                  # Unified API for 100+ LLMs
+ollama==0.1.7                    # Ollama Python client
+
+# Observability & Monitoring
+# ----------------------------------------------------------------------------
+langsmith==0.0.87                # LangChain monitoring (included above)
+phoenix-ai==3.0.2                # Observability (included above)
+langfuse==2.20.1                 # LLM engineering platform
+portkey-ai==0.1.74               # LLM gateway and observability
+helicone==1.2.0                  # LLM observability platform
+opentelemetry-api==1.22.0        # OpenTelemetry instrumentation
+
+# Fine-tuning & Training
+# ----------------------------------------------------------------------------
+transformers==4.37.2             # Training utilities (included above)
+peft==0.8.2                      # LoRA, QLoRA (included above)
+trl==0.7.10                      # RLHF and DPO training
+unsloth==2024.2                  # 2x faster LLM fine-tuning
+axolotl==0.4.0                   # Streamlined LLM fine-tuning
+lamini==1.1.0                    # LLM training and fine-tuning platform
+
+# Knowledge Graphs
+# ----------------------------------------------------------------------------
+neo4j==5.17.0                    # Neo4j graph database driver
+rdflib==7.0.0                    # RDF library for Python
+networkx==3.2.1                  # Graph data structures
+pyvis==0.3.2                     # Interactive graph visualization
+
+# Audio & Multimodal
+# ----------------------------------------------------------------------------
+openai-whisper==20231117         # Speech recognition by OpenAI
+speechrecognition==3.10.1        # Speech recognition wrapper
+pydub==0.25.1                    # Audio manipulation
+gtts==2.5.0                      # Google Text-to-Speech
+elevenlabs==0.2.27               # ElevenLabs TTS API
+
+# Image Generation & Vision
+# ----------------------------------------------------------------------------
+diffusers==0.26.3                # Stable Diffusion and image generation
+controlnet-aux==0.0.7            # ControlNet auxiliary models
+pillow==10.2.0                   # Image processing
+opencv-python==4.9.0.80          # Computer vision
+
+# Configuration & Utilities
+# ----------------------------------------------------------------------------
+python-dotenv==1.0.1             # Environment variable management
+pyyaml==6.0.1                    # YAML configuration
+toml==0.10.2                     # TOML configuration
+click==8.1.7                     # CLI creation
+typer==0.9.0                     # CLI building with type hints
+rich==13.7.0                     # Rich text formatting in terminal
+loguru==0.7.2                    # Enhanced logging
+
+# Async & Concurrency
+# ----------------------------------------------------------------------------
+asyncio==3.4.3                   # Asynchronous I/O
+aiofiles==23.2.1                 # Async file operations
+tenacity==8.2.3                  # Retry library with async support
+
+# Caching
+# ----------------------------------------------------------------------------
+diskcache==5.6.3                 # Disk-based caching
+cachetools==5.3.2                # In-memory caching utilities
+
+# Database Clients
+# ----------------------------------------------------------------------------
+sqlalchemy==2.0.25               # SQL toolkit
+psycopg2-binary==2.9.9           # PostgreSQL adapter
+pymongo==4.6.1                   # MongoDB driver
+
+# Testing
+# ----------------------------------------------------------------------------
+pytest==8.0.0                    # Testing framework
+pytest-asyncio==0.23.5           # Async testing support
+faker==22.6.0                    # Fake data generation
+
+# Jupyter Notebooks
+# ----------------------------------------------------------------------------
+jupyter==1.0.0                   # Jupyter metapackage
+ipywidgets==8.1.1                # Interactive widgets
