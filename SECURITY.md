@@ -217,4 +217,13 @@ This security policy may be updated periodically. Major changes will be announce
 ## 📧 Contact
 
 For security concerns that don't fit the above categories:
-- GitHub: [@christianabusca](https://github.com/christian
+- GitHub: [@christianabusca](https://github.com/christianabusca)
+- Repository: [requirements](https://github.com/christianabusca/requirements)
+
+---
+
+<div align="center">
+
+**🔒 Security is a shared responsibility. Thank you for helping keep our community safe! 🔒**
+
+</div>
