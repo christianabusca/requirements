@@ -1,0 +1,55 @@
+# ============================================================================
+# SIMPLE DATA ENGINEERING REQUIREMENTS
+# Python 3.10+ compatible
+# Focus: Basic ETL pipelines, data processing, and database operations
+# ============================================================================
+
+# Core Data Processing
+# ----------------------------------------------------------------------------
+pandas==2.2.0                    # Data manipulation and analysis
+numpy==1.26.3                    # Numerical computing
+pyarrow==14.0.2                  # Parquet file format support
+
+# Workflow Orchestration
+# ----------------------------------------------------------------------------
+prefect==2.14.21                 # Modern workflow orchestration
+schedule==1.2.0                  # Simple job scheduling
+
+# Database Connectors
+# ----------------------------------------------------------------------------
+sqlalchemy==2.0.25               # SQL toolkit and ORM
+psycopg2-binary==2.9.9           # PostgreSQL adapter
+pymysql==1.1.0                   # MySQL connector
+pymongo==4.6.1                   # MongoDB driver
+
+# Cloud Platform SDKs
+# ----------------------------------------------------------------------------
+boto3==1.34.34                   # AWS SDK for Python
+google-cloud-storage==2.14.0     # GCP Cloud Storage
+
+# Data Validation
+# ----------------------------------------------------------------------------
+pandera==0.18.0                  # Data validation for pandas
+
+# API Development
+# ----------------------------------------------------------------------------
+fastapi==0.109.0                 # Modern web framework for APIs
+uvicorn==0.27.0                  # ASGI server
+pydantic==2.5.3                  # Data validation using type hints
+requests==2.31.0                 # HTTP library
+
+# Utilities & Helpers
+# ----------------------------------------------------------------------------
+python-dotenv==1.0.1             # Environment variable management
+pyyaml==6.0.1                    # YAML parser
+click==8.1.7                     # CLI creation toolkit
+tqdm==4.66.1                     # Progress bars
+
+# Logging
+# ----------------------------------------------------------------------------
+loguru==0.7.2                    # Enhanced logging library
+
+# Testing
+# ----------------------------------------------------------------------------
+pytest==8.0.0                    # Testing framework
+faker==22.6.0                    # Fake data generator for testing
