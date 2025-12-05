@@ -1,0 +1,189 @@
+# ============================================================================
+# DEEP LEARNING REQUIREMENTS
+# Python 3.10+ compatible
+# Focus: Neural networks, computer vision, NLP, model training & deployment
+# ============================================================================
+
+# Core Deep Learning Frameworks
+# ----------------------------------------------------------------------------
+torch==2.2.0                     # PyTorch deep learning framework
+torchvision==0.17.0              # Computer vision models and utilities for PyTorch
+torchaudio==2.2.0                # Audio processing for PyTorch
+tensorflow==2.15.0               # TensorFlow deep learning framework
+tensorflow-hub==0.16.1           # Reusable ML modules for TensorFlow
+keras==3.0.5                     # High-level neural networks API
+
+# PyTorch Ecosystem
+# ----------------------------------------------------------------------------
+pytorch-lightning==2.1.4         # Lightweight PyTorch wrapper for training
+lightning==2.1.4                 # Lightning AI framework
+torchmetrics==1.3.0              # Metrics for PyTorch
+torch-tb-profiler==0.4.3         # TensorBoard profiler for PyTorch
+torchsummary==1.5.1              # Model summary for PyTorch
+
+# TensorFlow Ecosystem
+# ----------------------------------------------------------------------------
+tensorboard==2.15.1              # TensorFlow visualization toolkit
+tensorflow-datasets==4.9.4       # Ready-to-use datasets for TensorFlow
+tensorflow-addons==0.23.0        # Additional functionality for TensorFlow
+keras-tuner==1.4.7               # Hyperparameter tuning for Keras
+
+# Model Optimization & Quantization
+# ----------------------------------------------------------------------------
+onnx==1.15.0                     # Open Neural Network Exchange format
+onnxruntime==1.17.0              # ONNX runtime for inference
+onnxruntime-gpu==1.17.0          # ONNX runtime with GPU support
+openvino==2024.0.0               # Intel OpenVINO toolkit for optimization
+tensorrt==8.6.1                  # NVIDIA TensorRT for inference optimization
+
+# Computer Vision - Pre-trained Models & Tools
+# ----------------------------------------------------------------------------
+timm==0.9.12                     # PyTorch Image Models (hundreds of pretrained models)
+transformers==4.37.2             # Hugging Face transformers (includes vision models)
+opencv-python==4.9.0.80          # Computer vision library
+pillow==10.2.0                   # Image processing library
+albumentations==1.4.0            # Image augmentation library
+imgaug==0.4.0                    # Image augmentation
+kornia==0.7.1                    # Differentiable computer vision library
+detectron2==0.6                  # Facebook's object detection platform
+mmcv==2.1.0                      # Computer vision foundation library
+mmdetection==3.3.0               # Object detection toolbox
+mmsegmentation==1.2.2            # Semantic segmentation toolbox
+yolov5==7.0.13                   # YOLOv5 object detection
+
+# Natural Language Processing
+# ----------------------------------------------------------------------------
+transformers==4.37.2             # State-of-the-art NLP models (included above)
+tokenizers==0.15.1               # Fast tokenizers for transformers
+datasets==2.17.0                 # Hugging Face datasets library
+sentencepiece==0.1.99            # Unsupervised text tokenizer
+sacremoses==0.1.1                # Moses tokenizer wrapper
+nltk==3.8.1                      # Natural Language Toolkit
+spacy==3.7.2                     # Industrial-strength NLP
+gensim==4.3.2                    # Topic modeling and word embeddings
+
+# Text Generation & LLMs
+# ----------------------------------------------------------------------------
+transformers==4.37.2             # Includes GPT, BERT, T5, etc. (included above)
+accelerate==0.26.1               # Distributed training and inference
+bitsandbytes==0.42.0             # 8-bit optimizers and quantization
+peft==0.8.2                      # Parameter-Efficient Fine-Tuning (LoRA, etc.)
+trl==0.7.10                      # Transformer Reinforcement Learning
+
+# Audio & Speech Processing
+# ----------------------------------------------------------------------------
+torchaudio==2.2.0                # Audio processing (included above)
+librosa==0.10.1                  # Audio analysis library
+soundfile==0.12.1                # Audio file reading/writing
+speechbrain==0.5.16              # Speech processing toolkit
+pyannote-audio==3.1.1            # Speaker diarization and audio processing
+
+# Graph Neural Networks
+# ----------------------------------------------------------------------------
+torch-geometric==2.5.0           # Graph neural network library for PyTorch
+dgl==1.1.3                       # Deep Graph Library
+networkx==3.2.1                  # Graph data structures and algorithms
+
+# Reinforcement Learning
+# ----------------------------------------------------------------------------
+gym==0.26.2                      # OpenAI Gym (RL environments)
+gymnasium==0.29.1                # Maintained fork of OpenAI Gym
+stable-baselines3==2.2.1         # Reliable RL algorithms
+ray[rllib]==2.9.1                # Scalable RL library
+
+# Model Training Utilities
+# ----------------------------------------------------------------------------
+wandb==0.16.3                    # Weights & Biases experiment tracking
+tensorboard==2.15.1              # Visualization toolkit (included above)
+mlflow==2.10.2                   # ML lifecycle management
+neptune-client==1.9.1            # Neptune.ai experiment tracking
+aim==3.19.1                      # Experiment tracking and comparison
+
+# Distributed Training
+# ----------------------------------------------------------------------------
+horovod==0.28.1                  # Distributed deep learning framework
+deepspeed==0.13.1                # Deep learning optimization library
+ray[train]==2.9.1                # Distributed training with Ray
+accelerate==0.26.1               # Distributed training (included above)
+
+# Model Interpretability & Visualization
+# ----------------------------------------------------------------------------
+captum==0.7.0                    # Model interpretability for PyTorch
+grad-cam==1.4.8                  # Gradient-weighted Class Activation Mapping
+netron==7.4.6                    # Neural network visualizer
+tensorwatch==0.9.1               # Debugging and visualization for PyTorch
+
+# Data Loading & Preprocessing
+# ----------------------------------------------------------------------------
+numpy==1.26.3                    # Numerical computing
+pandas==2.2.0                    # Data manipulation
+pyarrow==14.0.2                  # Apache Arrow for efficient data loading
+webdataset==0.2.86               # Efficient data loading for large datasets
+ffcv==1.0.2                      # Fast data loading library
+
+# Image/Video Processing
+# ----------------------------------------------------------------------------
+opencv-python==4.9.0.80          # Computer vision (included above)
+scikit-image==0.22.0             # Image processing algorithms
+imageio==2.33.1                  # Image and video I/O
+moviepy==1.0.3                   # Video editing library
+av==11.0.0                       # Pythonic bindings for FFmpeg
+
+# Model Deployment & Serving
+# ----------------------------------------------------------------------------
+torchserve==0.9.0                # Model serving for PyTorch
+tensorflow-serving-api==2.15.0   # TensorFlow Serving API
+tritonclient==2.43.0             # NVIDIA Triton Inference Server client
+bentoml==1.2.3                   # Model serving framework
+fastapi==0.109.0                 # Web framework for APIs
+uvicorn==0.27.0                  # ASGI server
+
+# Model Compression & Pruning
+# ----------------------------------------------------------------------------
+torch-pruning==1.3.4             # Structured pruning for PyTorch
+neural-compressor==2.4.1         # Intel Neural Compressor for model optimization
+nni==3.0                         # Neural Network Intelligence (AutoML, NAS, pruning)
+
+# Mixed Precision Training
+# ----------------------------------------------------------------------------
+apex==0.1                        # PyTorch extension for mixed precision training
+# Note: apex requires manual installation from GitHub
+
+# Loss Functions & Metrics
+# ----------------------------------------------------------------------------
+segmentation-models-pytorch==0.3.3  # Segmentation models with losses
+pytorch-metric-learning==2.4.1   # Metric learning losses
+kornia==0.7.1                    # Differentiable loss functions (included above)
+
+# Attention Mechanisms & Architectures
+# ----------------------------------------------------------------------------
+einops==0.7.0                    # Flexible tensor operations
+x-transformers==1.27.19          # Transformer building blocks
+rotary-embedding-torch==0.5.3    # Rotary position embeddings
+
+# Hyperparameter Optimization
+# ----------------------------------------------------------------------------
+optuna==3.5.0                    # Hyperparameter optimization
+ray[tune]==2.9.1                 # Distributed tuning (included above)
+keras-tuner==1.4.7               # Keras hyperparameter tuning (included above)
+
+# Utilities
+# ----------------------------------------------------------------------------
+tqdm==4.66.1                     # Progress bars
+python-dotenv==1.0.1             # Environment variables
+pyyaml==6.0.1                    # YAML configuration files
+jsonargparse==4.27.1             # Argument parsing with JSON/YAML
+hydra-core==1.3.2                # Configuration management framework
+omegaconf==2.3.0                 # Hierarchical configuration
+
+# Testing & Validation
+# ----------------------------------------------------------------------------
+pytest==8.0.0                    # Testing framework
+pytest-cov==4.1.0                # Coverage plugin
+torchtest==0.5                   # Unit testing for PyTorch models
+
+# Jupyter Notebooks
+# ----------------------------------------------------------------------------
+jupyter==1.0.0                   # Jupyter metapackage
+ipywidgets==8.1.1                # Interactive widgets
+ipykernel==6.29.0                # IPython kernel
