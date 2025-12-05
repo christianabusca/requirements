@@ -9,13 +9,9 @@ assignees: ''
 
 ---
 name: Bug Report
-
 about: Report an issue to help us improve the requirements files
-
 title: "[BUG] "
-
 labels: bug
-
 assignees: ''
 ---
 
